@@ -98,7 +98,7 @@ const Create = () => {
               {mobileError && <small className="text-danger">Mobile is required</small>}
             </div>
             <div className="flex-grow-1">
-              <label htmlFor='position'>Position:</label>
+              <label htmlFor='position'>Department:</label>
               <select
                 name="position"
                 className="form-control"
