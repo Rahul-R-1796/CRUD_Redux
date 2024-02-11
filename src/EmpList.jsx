@@ -99,7 +99,7 @@ function EmployeeList() {
               <button className='btn btn-sm btn-link'>{sortIcon("mobile")}</button>
             </th>
             <th onClick={() => handleSort("position")}>
-              Position
+              Department 
               <button className='btn btn-sm btn-link'>{sortIcon("position")}</button>
             </th>
             <th onClick={() => handleSort("joiningDate")}>
